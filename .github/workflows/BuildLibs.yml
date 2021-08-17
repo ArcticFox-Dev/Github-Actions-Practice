@@ -29,7 +29,7 @@ jobs:
         with:
           dotnet-version: '6.0.x'
           include-prerelease: 'true'
-          source-url: https://nuget.pkg.github.com/randhall/index.json
+          source-url: https://nuget.pkg.github.com/Randhall/index.json
         env:
           NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
@@ -59,7 +59,7 @@ jobs:
         with:
           dotnet-version: '6.0.x'
           include-prerelease: 'true'
-          source-url: https://nuget.pkg.github.com/randhall/index.json
+          source-url: https://nuget.pkg.github.com/Randhall/index.json
         env:
           NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
