@@ -3,6 +3,12 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
+    <Version>0.0.1</Version>
+    <Authors>Randhall</Authors>
+    <Company>Arctic Fox Games</Company>
+    <PackageDescription>Lib Two workflow test.</PackageDescription>
+    <RepositoryUrl>https://github.com/randhall/github-actions-practice</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>
