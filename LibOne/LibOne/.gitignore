@@ -1,0 +1,70 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+#nested projects
+*/*.swp
+*/*.*~
+*/project.lock.json
+*/.DS_Store
+*/*.pyc
+*/nupkg/
+
+# Visual Studio Code
+.vscode
+#nested projects
+*/.vscode
+
+# Rider
+.idea
+#nested projects
+*/.idea
+
+# Visual Studio 2015
+.vs/
+#nested projects
+*/.vs/
+
+# User-specific files
+.suo
+.user
+.userosscache
+.sln.docstates
+# nested projects
+*/*.suo
+*/*.user
+*/*.userosscache
+*/*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+#nested projects
+*/[Dd]ebug/
+*/[Dd]ebugPublic/
+*/[Rr]elease/
+*/[Rr]eleases/
+*/x64/
+*/x86/
+*/build/
+*/bld/
+*/[Bb]in/
+*/[Oo]bj/
+*/[Oo]ut/
+*/msbuild.log
+*/msbuild.err
+*/msbuild.wrn
