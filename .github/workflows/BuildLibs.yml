@@ -37,6 +37,8 @@ jobs:
         run: dotnet build --configuration Release ./LibOne/LibOne/LibOne.csproj
       - name: Test LibOne
         run: dotnet test ./LibOne/LibOne.Tests/LibOne.Tests.csproj
+      - name: package LibOne
+        run: dotnet pack --configuration Release ./LibOne/LibOne/LibOne.csproj
       - name: Publish to GPR
         run: dotnet nuget push ./LibOne/LibOne/bin/Release/*.nupkg
         
@@ -65,5 +67,7 @@ jobs:
         run: dotnet build --configuration Release ./LibTwo/LibTwo/LibTwo.csproj
       - name: Test LibTwo
         run: dotnet test ./LibTwo/LibTwo.Tests/LibTwo.Tests.csproj
+      - name: package LibTwo
+        run: dotnet pack --configuration Release ./LibTwo/LibTwo/LibTwo.csproj
       - name: Publish to GPR
         run: dotnet nuget push ./LibTwo/LibTwo/bin/Release/*.nupkg
