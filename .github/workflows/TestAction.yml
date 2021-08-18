@@ -30,4 +30,4 @@ jobs:
           dir: ${{ '.' }}
           versionFilename: '.versionConfig'
       - name: Printout Version
-        run: echo ${{ steps.get-version.artefact-version }}
+        run: echo 'Version -> ${{ steps.get-version.artefact-version }}'
